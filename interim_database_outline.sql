@@ -1,5 +1,3 @@
--- Migrations will appear here as you chat with AI
-
 create table users (
   id bigint primary key generated always as identity,
   username text not null unique,
